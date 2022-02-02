@@ -1,9 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
+import data from '../../data.json'
 
 const initialState = {
   value: 0,
   cartItems:[],
-  newProduct:[],
+  newProduct:data,
   isLoged:false,
 
 }

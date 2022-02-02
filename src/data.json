@@ -2,7 +2,7 @@
     {
     "id":1,
     "title":"Glide",
-    "images":"/images/GLide.jpg",
+    "images":"1111/images/GLide.jpg",
     "price":130,
     "desc":"Some quick example text to build on the card title and make up the bulk of the card's content."  ,
     "qty":1
@@ -11,7 +11,7 @@
     {
         "id":2,
         "title":"Htc",
-        "images":"/images/Htc.jpg",
+        "images":"1111/images/Htc.jpg",
         "price":100,
         "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
         "qty":1
@@ -20,7 +20,7 @@
         {
             "id":3,
             "title":"IPhone7",
-            "images":"/images/IPHONE7.jpg",
+            "images":"1111/images/IPHONE7.jpg",
             "price":30,
             "desc":"Some quick example text to build on the card title and make up the bulk of the card's content." ,
             "qty":1 
@@ -29,7 +29,7 @@
             {
                 "id":4,
                 "title":"pointMobile",
-                "images":"/images/pointMobile.jpg",
+                "images":"1111/images/pointMobile.jpg",
                 "price":120,
                 "desc":"Some quick example text to build on the card title and make up the bulk of the card's content." ,
                 "qty":1 
@@ -38,7 +38,7 @@
                 {
                     "id":5,
                     "title":"pointMobile",
-                    "images":"/images/pointMobile.jpg",
+                    "images":"1111/images/pointMobile.jpg",
                     "price":300,
                     "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                     "qty":1  
@@ -47,7 +47,7 @@
                 {
                     "id":6,
                     "title":"sumsung",
-                    "images":"/images/sumsung.jpg",
+                    "images":"1111/images/sumsung.jpg",
                     "price":160,
                     "desc":"Some quick example text to build on the card title and make up the bulk of the card's content." ,
                     "qty":1 
