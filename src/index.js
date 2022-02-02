@@ -25,10 +25,27 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="ShoppingNow" element={<ShoppingNow />} />
+            <Route path="CreateProduct/ShoppingNow" element={<ShoppingNow />} />
+
             <Route path="Cart" element={<Cart />} />
-            <Route path="Signup" element={<Signup />} />
+            <Route path="ShoppingNow/CreateProduct/Cart" element={<Cart />} />
+            <Route path="ShoppingNow/Cart" element={<Cart />} />
+
+            <Route path="CreateProduct/Cart" element={<Cart />} />
+
+    
+
+            <Route path="ShoppingNow/CreateProduct/Cart/Signup" element={<Signup />} />
+            <Route path="ShoppingNow/CreateProduct/Cart/Signup" element={<Signup />} />
+
             <Route path="SignIn" element={<SignIn />} />
+
+
             <Route path="CreateProduct" element={<CreateProduct />} />
+            <Route path="ShoppingNow/CreateProduct" element={<CreateProduct />} />
+            <Route path="Cart/CreateProduct" element={<CreateProduct />} />
+
+    
             <Route path="Logout" element={<Logout />} />
             <Route path="Login" element={<SignIn />} />
 
