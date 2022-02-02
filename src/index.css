@@ -1,0 +1,10 @@
+
+
+.layout{
+    display: grid;
+    grid-template-areas:
+     "header"
+     "main"
+     "footer";
+     height: 100%;
+  }

@@ -1,0 +1,10 @@
+.cart{
+    border-radius: 20px !important;
+}
+.main{
+    min-height: 80vh;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+  
+  }
