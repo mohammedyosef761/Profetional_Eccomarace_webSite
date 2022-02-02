@@ -29,6 +29,7 @@ ReactDOM.render(
 
             <Route path="Cart" element={<Cart />} />
             <Route path="ShoppingNow/CreateProduct/Cart" element={<Cart />} />
+
             <Route path="ShoppingNow/Cart" element={<Cart />} />
 
             <Route path="CreateProduct/Cart" element={<Cart />} />
@@ -36,16 +37,25 @@ ReactDOM.render(
     
 
             <Route path="ShoppingNow/CreateProduct/Cart/Signup" element={<Signup />} />
-            <Route path="ShoppingNow/CreateProduct/Cart/Signup" element={<Signup />} />
+            <Route path="ShoppingNow/Cart/Signup" element={<Signup />} />
+            <Route path="Signup" element={<Signup />} />
 
             <Route path="SignIn" element={<SignIn />} />
+            <Route path="ShoppingNow/Cart/SignIn" element={<SignIn />} />
 
+            
 
             <Route path="CreateProduct" element={<CreateProduct />} />
             <Route path="ShoppingNow/CreateProduct" element={<CreateProduct />} />
             <Route path="Cart/CreateProduct" element={<CreateProduct />} />
 
+            <Route path="ShoppingNow/Cart/SignIn/Signup" element={<SignIn />} />
+
     
+            <Route path="ShoppingNow/Cart/Signup/SignIn" element={<SignIn />} />
+            <Route path="ShoppingNow/Cart/Signup/SignIn/Signup" element={<SignIn />} />
+
+
             <Route path="Logout" element={<Logout />} />
             <Route path="Login" element={<SignIn />} />
 

@@ -65,9 +65,8 @@ function AddProduct(){
     // setProduct([...products])
     // }
      
-
     return(
-        <div className="text-center m-auto text-light w-50">
+        <div className="text-center  m-md-auto text-light w-md-50">
          <Form onSubmit={add}  ref={formData}>
                 <Form.Group className="mb-3" controlId="formBasicProductName" >
                     <Form.Label>Product Name</Form.Label>
