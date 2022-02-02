@@ -59,7 +59,7 @@ function Signup(){
 
 <button className="btn btn-success my-5" onClick={handleRegister}>
 
-  <Link to="/" className="btn btn-success">SignUp</Link>
+  <Link to="SignIn" className="btn btn-success">SignUp</Link>
 
 </button>
      </div>
