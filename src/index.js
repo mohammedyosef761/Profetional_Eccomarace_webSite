@@ -43,13 +43,17 @@ ReactDOM.render(
             <Route path="SignIn" element={<SignIn />} />
             <Route path="ShoppingNow/Cart/SignIn" element={<SignIn />} />
 
-            
-
+            <Route path="/SignIn/Signup" element={<Signup />} />
+         
+            <Route path="/ShoppingNow/Signup" element={<Signup />} />
             <Route path="CreateProduct" element={<CreateProduct />} />
             <Route path="ShoppingNow/CreateProduct" element={<CreateProduct />} />
             <Route path="Cart/CreateProduct" element={<CreateProduct />} />
 
             <Route path="ShoppingNow/Cart/SignIn/Signup" element={<SignIn />} />
+            <Route path="Signup/SignIn" element={<SignIn />} />
+
+
 
     
             <Route path="ShoppingNow/Cart/Signup/SignIn" element={<SignIn />} />

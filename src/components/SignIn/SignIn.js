@@ -56,7 +56,7 @@ function SignIn(){
       Please provide a valid passWord.
     </div>
   </div>
-  <button className="btn btn-danger w-25 my-5" onClick={check}>   
+  <button className="btn btn-danger w-25 my-5 " onClick={check}>   
   LogIn
   </button>
 
